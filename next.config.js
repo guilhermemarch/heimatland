@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   images: {
     domains: ['localhost'],
     formats: ['image/webp', 'image/avif'],
@@ -15,4 +12,4 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+module.exports = nextConfig
