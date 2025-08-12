@@ -57,15 +57,18 @@ export default function HomePage() {
         news: {
             childrenCostume: {
                 title: "Novo traje infantil é apresentado pelo grupo",
-                excerpt: "O Heimatland apresentou oficialmente o novo traje infantil, desenvolvido com tecidos tradicionais alemães..."
+                excerpt: "O Heimatland apresentou oficialmente o novo traje infantil, desenvolvido com tecidos tradicionais alemães...",
+                image: "/news/traje-infantil.svg"
             },
             internationalFestival: {
                 title: "Grupo participa do Festival Internacional de Folclore",
-                excerpt: "Heimatland representou o Rio Grande do Sul no Festival Internacional de Folclore realizado em São Paulo..."
+                excerpt: "Heimatland representou o Rio Grande do Sul no Festival Internacional de Folclore realizado em São Paulo...",
+                image: "/news/festival-internacional.svg"
             },
             danceWorkshop: {
                 title: "Oficina de dança alemã para iniciantes",
-                excerpt: "Nova turma de iniciantes começará em abril. As inscrições já estão abertas para todas as idades..."
+                excerpt: "Nova turma de iniciantes começará em abril. As inscrições já estão abertas para todas as idades...",
+                image: "/news/oficina-danca.svg"
             }
         }
     }
@@ -100,21 +103,24 @@ export default function HomePage() {
             title: data.news.childrenCostume.title,
             excerpt: data.news.childrenCostume.excerpt,
             date: "12 de Agosto, 2024",
-            slug: "novo-traje-infantil"
+            slug: "novo-traje-infantil",
+            image: "/news/traje-infantil.jpg"
         },
         {
             id: 2,
             title: data.news.internationalFestival.title,
             excerpt: data.news.internationalFestival.excerpt,
             date: "08 de Agosto, 2024",
-            slug: "festival-internacional"
+            slug: "festival-internacional",
+            image: "/news/festival-internacional.jpg"
         },
         {
             id: 3,
             title: data.news.danceWorkshop.title,
             excerpt: data.news.danceWorkshop.excerpt,
             date: "05 de Agosto, 2024",
-            slug: "oficina-danca"
+            slug: "oficina-danca",
+            image: "/news/oficina-danca.jpg"
         }
     ]
 
