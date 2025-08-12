@@ -157,8 +157,8 @@ export default function HomePage() {
           </div>
 
           {/* Main Title */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in delay-300" 
-              style={{ fontFamily: 'UnifrakturCook, serif', color: '#FFD500', textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in delay-300 font-gothic" 
+              style={{ color: '#FFD500', textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
             {data.home.hero.welcome}
           </h1>
 
@@ -198,8 +198,8 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50 section-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 gothic-title" 
-                style={{ fontFamily: 'UnifrakturCook, serif', color: '#D41B1B' }}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-gothic" 
+                style={{ color: '#D41B1B' }}>
               {data.home.history.title}
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-black via-red-600 to-yellow-500 mx-auto mb-8"></div>
@@ -256,8 +256,8 @@ export default function HomePage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 gothic-title" 
-                style={{ fontFamily: 'UnifrakturCook, serif', color: '#D41B1B' }}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-gothic" 
+                style={{ color: '#D41B1B' }}>
               {data.home.events.title}
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-black via-red-600 to-yellow-500 mx-auto mb-8"></div>
@@ -307,8 +307,8 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50 section-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 gothic-title" 
-                style={{ fontFamily: 'UnifrakturCook, serif', color: '#D41B1B' }}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-gothic" 
+                style={{ color: '#D41B1B' }}>
               {data.home.news.title}
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-black via-red-600 to-yellow-500 mx-auto mb-8"></div>

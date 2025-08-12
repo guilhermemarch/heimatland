@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 
+/* Força o carregamento da fonte gótica */
+.font-gothic {
+  font-family: 'UnifrakturCook', serif !important;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
